@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.add_story.AddStoryActivity"
+    android:paddingBottom="12dp">
+
+    <ImageView
+        android:id="@+id/add_story_previewImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_place_holder"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:id="@+id/add_story_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/add_story_previewImageView">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_story_camera_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/camera"
+            android:drawableStart="@drawable/ic_camera"
+            android:paddingHorizontal="12dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="?attr/colorPrimary"
+            android:background="@drawable/roundedbutton" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_story_gallery_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery"
+            android:drawableStart="@drawable/ic_place_holder"
+            android:drawableTint="?attr/colorPrimary"
+            android:paddingHorizontal="12dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="?attr/colorPrimary"
+            android:background="@drawable/roundedbutton"
+            android:layout_marginStart="12dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/add_story_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/type_here"
+        android:gravity="top"
+        android:maxLength="308"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/add_story_linear"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/add_story_swipe_location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorOnPrimary"
+        android:fontFamily="@font/quicksand_regular"
+        android:layout_marginTop="12dp"
+        android:text="@string/enable_location"
+        app:layout_constraintTop_toBottomOf="@id/add_story_input_text"
+        app:layout_constraintStart_toStartOf="@id/add_story_post_button" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/add_story_swipe_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        app:thumbTint="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="@id/add_story_swipe_location_text"
+        app:layout_constraintBottom_toBottomOf="@id/add_story_swipe_location_text"
+        app:layout_constraintStart_toEndOf="@id/add_story_swipe_location_text"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_story_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_margin="12dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="?attr/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/add_story_swipe_location"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

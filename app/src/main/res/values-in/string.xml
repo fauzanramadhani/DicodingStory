@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiCoding Story</string>
+    <string name="empty_password">"Silakan masukkan kata sandi minimal 8 karakter"</string>
+    <string name="empty_email">"Silakan masukkan alamat email yang valid"</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login_subject_text">Silakan masuk ke akun Anda</string>
+    <string name="login">Masuk</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="already_have_an_account">Sudah punya akun?</string>
+    <string name="create_a_new_account">Buat akun baru</string>
+    <string name="name">Nama</string>
+    <string name="empty_name">Silakan masukkan nama Anda</string>
+    <string name="please_wait">Harap tunggu…</string>
+    <string name="fill_all_field">Harap isi semua kolom dengan benar</string>
+    <string name="logout">Keluar</string>
+    <string name="dummy_name">Fauzan Gracia Ramadhani</string>
+    <string name="lorem_ipsum">Lorem ipsum, atau lipsum singkatnya, adalah teks standar yang ditempatkan untuk menunjukkan elemen presentasi grafis atau visual seperti font, tipografi, dan tata letak.</string>
+    <string name="refresh">Segarkan</string>
+    <string name="just_now">Baru saja</string>
+    <string name="one_minute">1 Menit</string>
+    <string name="minute">Menit</string>
+    <string name="one_hour">1 Jam</string>
+    <string name="hours">Jam</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="days">Hari</string>
+    <string name="setting">Pengaturan</string>
+    <string name="type_here">Tulis deskripsi kamu di sini</string>
+    <string name="post">Posting</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="permission_denied">Izin tidak diberikan</string>
+    <string name="empty_post_info">Gambar atau deskripsi kosong</string>
+    <string name="wrong_email_or_password">Email atau kata sandi yang Anda masukkan salah</string>
+    <string name="email_already_use">Email yang Anda masukkan sudah digunakan atau format email tidak didukung</string>
+    <string name="time_out">Tidak dapat terhubung ke server, coba lagi nanti</string>
+    <string name="create_story">Buat Cerita</string>
+    <string name="title_activity_maps">PetaAktivitas</string>
+    <string name="enable_location">Aktifkan Lokasi</string>
+    <string name="gps_is_required">Anda harus mengaktifkan GPS untuk menggunakan fitur ini!</string>
+</resources>

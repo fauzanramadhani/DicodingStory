@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiCoding Story</string>
+    <string name="empty_password">「8文字以上のパスワードを入力してください」</string>
+    <string name="empty_email">「有効なメールアドレスを入力してください」</string>
+    <string name="email">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="login_subject_text">アカウントにログインしてください</string>
+    <string name="login">ログイン</string>
+    <string name="belum_punya_akun">まだアカウントをお持ちでないですか？</string>
+    <string name="register">登録</string>
+    <string name="already_have_an_account">既にアカウントをお持ちですか？</string>
+    <string name="create_a_new_account">新しいアカウントを作成する</string>
+    <string name="name">名前</string>
+    <string name="empty_name">名前を入力してください</string>
+    <string name="please_wait">お待ちください…</string>
+    <string name="fill_all_field">すべてのフィールドに正しく入力してください</string>
+    <string name="logout">ログアウト</string>
+    <string name="dummy_name">Fauzan Gracia Ramadhani</string>
+    <string name="lorem_ipsum">Lorem ipsum、またはlipsumとは、フォント、タイポグラフィ、レイアウトなどのグラフィックやビジュアルプレゼンテーション要素を示すために配置された標準テキストです。</string>
+    <string name="refresh">リフレッシュ</string>
+    <string name="just_now">たった今</string>
+    <string name="one_minute">1分</string>
+    <string name="minute">分</string>
+    <string name="one_hour">1時間</string>
+    <string name="hours">時間</string>
+    <string name="yesterday">昨日</string>
+    <string name="days">日</string>
+    <string name="setting">設定</string>
+    <string name="type_here">ここに説明を書いてください</string>
+    <string name="post">投稿</string>
+    <string name="camera">カメラ</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="permission_denied">許可されていません</string>
+    <string name="empty_post_info">画像または説明が空です</string>
+    <string name="wrong_email_or_password">入力したメールアドレスまたはパスワードが正しくありません</string>
+    <string name="email_already_use">入力したメールアドレスは既に使用されていますまたはメールアドレスの形式がサポートされていません</string>
+    <string name="time_out">サーバーに接続できません。後でもう一度試してください</string>
+    <string name="create_story">クリエイトストーリー</string>
+    <string name="title_activity_maps">マップスアクティビティ</string>
+    <string name="enable_location">位置情報を有効にする</string>
+    <string name="gps_is_required">この機能を使用するには、GPSが有効になっている必要があります！</string>
+</resources>
